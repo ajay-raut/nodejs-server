@@ -1,5 +1,9 @@
 # Use an official Node.js runtime as a base image
+<<<<<<< HEAD
 FROM node:node:20-alpine
+=======
+FROM node:20-slim
+>>>>>>> 89aef32f56a472761ed4251b15e945b7b89756b3
 
 # Set the working directory in the container
 WORKDIR /usr/src/app
